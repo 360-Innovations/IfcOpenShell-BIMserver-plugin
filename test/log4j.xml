@@ -22,47 +22,8 @@
             <param name="AcceptOnMatch" value="false"/>
         </filter>
 	</appender>
-	<logger name="org.quartz">
-		<level value="error" />
-		<appender-ref ref="ErrorConsole" />
-		<appender-ref ref="OutConsole" />
-	</logger>
-	<logger name="org.apache.cxf">
-		<level value="error" />
-		<appender-ref ref="ErrorConsole" />
-		<appender-ref ref="OutConsole" />
-	</logger>
-	<logger name="org.eclipse.jetty">
-		<level value="error" />
-		<appender-ref ref="ErrorConsole" />
-		<appender-ref ref="OutConsole" />
-	</logger>
-	<logger name="org.openid4java">
-		<level value="error" />
-		<appender-ref ref="ErrorConsole" />
-		<appender-ref ref="OutConsole" />
-	</logger>
-	<logger name="org.springframework">
-		<level value="error" />
-		<appender-ref ref="ErrorConsole" />
-		<appender-ref ref="OutConsole" />
-	</logger>
-	<logger name="org.bimserver.ifcengine">
-		<level value="info" />
-		<appender-ref ref="ErrorConsole" />
-		<appender-ref ref="OutConsole" />
-	</logger>
-	<logger name="org.bimserver.shared.json">
-		<level value="error" />
-		<appender-ref ref="ErrorConsole" />
-		<appender-ref ref="OutConsole" />
-	</logger>
-	<logger name="org.bimserver.ifcengine.jvm">
-		<level value="error" />
-		<appender-ref ref="ErrorConsole" />
-	</logger>
 	<root>
-		<priority value="info" />
+		<priority value="blueprints.interfaces.ifcconverter.test" />
 		<appender-ref ref="ErrorConsole" />
 		<appender-ref ref="OutConsole" />
 	</root>
